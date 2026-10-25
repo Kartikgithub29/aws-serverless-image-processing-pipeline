@@ -1,0 +1,3 @@
+aws_region    = "ap-south-1"
+project_name  = "serverless-image-pipeline"
+bucket_suffix = "replace-with-unique-value"

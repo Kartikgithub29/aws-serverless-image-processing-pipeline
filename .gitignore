@@ -1,0 +1,30 @@
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Generated Lambda packages
+build/
+
+# Terraform local files
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+*.tfplan
+crash.log
+crash.*.log
+
+# Secrets and credentials
+.env
+.env.*
+.aws/
+*.pem
+*.key
+
+# Editor and OS
+.vscode/
+.DS_Store
+Thumbs.db
