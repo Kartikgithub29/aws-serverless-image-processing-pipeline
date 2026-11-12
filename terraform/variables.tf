@@ -14,4 +14,5 @@ variable "project_name" {
 variable "bucket_suffix" {
   description = "Unique suffix for the S3 bucket name"
   type        = string
+  default     = "262666781885"
 }
